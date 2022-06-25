@@ -1,0 +1,9 @@
+export const APPLICATION = {
+  BREAKPOINT: {
+    SMALL: 480,
+    MEDIUM: 996,
+    LARGE: 1280,
+  },
+  HEADER_HEIGHT: 60,
+  MINIMUM_WIDTH: 390,
+};
