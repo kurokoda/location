@@ -7,6 +7,7 @@ import { Icon } from "./icon";
 
 type RatingProps = {
   rating: RatingValue;
+  
   doShowText?: boolean;
 };
 
@@ -23,6 +24,7 @@ const Rating = ({ doShowText, rating }: RatingProps) => {
           <IconContainer>
             {times(5, (ratingValue: number) => (
               <Icon
+                key={`rating-star-${ratingValue}`}
                 color={
                   ratingValue < rating ? COLOR.YELLOW : COLOR.GRAYSCALE_LIGHTEST
                 }

@@ -6,10 +6,10 @@ type HTTPConstant = {
 
 const HTTP: HTTPConstant = {
   METHOD: {
+    DELETE: "DELETE",
     GET: "GET",
     POST: "POST",
     PUT: "PUT",
-    DELETE: "DELETE",
   }
 };
 

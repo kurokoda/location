@@ -35,18 +35,18 @@ const LoadingCardIconContainer = styled.div`
   width: 80px;
 `;
 
-const LoadingCard = ({ height = `calc(100vh - ${APPLICATION.HEADER_HEIGHT}px)` }: LoadingCardProps) => {
+const LoadingCardText = styled.h5`
+  font-weight: 700;
+  padding: 20px 0 0 0;
+`;
+
+const LoadingCard = ({
+  height = `calc(100vh - ${APPLICATION.HEADER_HEIGHT}px)`,
+}: LoadingCardProps) => {
   return (
     <LoadingCardContainer height={height}>
       <LoadingCardContent>
-        <h5
-          style={{
-            fontWeight: 700,
-            padding: "20px 0 0 0",
-          }}
-        >
-          Loading...
-        </h5>
+        <LoadingCardText>Loading...</LoadingCardText>
         <LoadingCardIconContainer>
           <LoadingIndicator />
         </LoadingCardIconContainer>

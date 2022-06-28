@@ -1,10 +1,11 @@
 # Getting Started with the location project
 
-Open your terminal
-Enter `npm install --force`
-Enter `npm run start`
-Open another terminal window
-Enter `npm run serve`
+1. Open your terminal
+2. Enter `npm install`
+3. Enter `npm run start`
+4. Open another terminal window/tab
+5. Enter `npm run serve`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
