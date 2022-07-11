@@ -7,7 +7,7 @@ const sendHTTPRequest = async (
   method: RequestMethod,
   data?: Record<string, any>
 ) => {
-  const domain = process.env.REACT_APP_SERVER_DOMAIN;
+  const domain = "http://localhost:5000";
   const fullUrl = domain + url;
 
   return axios({
